@@ -157,7 +157,7 @@ function showcustomer(){
                     <br></form>
                     <form action="signup.php" method="POST" enctype="multipart/form-data"   id="stock" style="display:none;"><br>
                     <input type='text' name='pname' placeholder="productname" class='form-control' style='width:300px'  required><br>
-                    <input type='number' name='stock' placeholder="productname" class='form-control' style='width:300px'  required><br>
+                    <input type='number' name='stock' placeholder="enter stock" class='form-control' style='width:300px'  required><br>
 
                     <input type="submit" value="updatestock" class='form-control btn btn-success' style='width:300px'  name="update1">
                     </p>
@@ -235,7 +235,7 @@ function showcustomer(){
                    
                     <td>$row[quantity]</td>
                     <td>$row[cost]</td>
-                    <td><img src='$row[img]' style='max-width:70px;max-height:50px'></td>
+                    <td><img src='image/$row[img]' style='max-width:70px;max-height:50px'></td>
                     <td>$row[ptype]</td>
                     
                     <td>$row[stock]</td></tr>";
@@ -429,7 +429,7 @@ function showcustomer(){
                       
                        <td>$row[quantity]</td>
                        <td>$row[cost]</td>
-                       <td><img src='$row[img]' style='max-width:70px;max-height:50px'></td>
+                       <td><img src='image/$row[img]' style='max-width:70px;max-height:50px'></td>
                        <td>$row[ptype]</td>
                        
                        <td>$row[stock]</td></tr>";

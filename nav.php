@@ -36,7 +36,7 @@ if($_SERVER['PHP_SELF']=="/web/showorder.php" || $_SERVER['PHP_SELF']=="/web/pur
   ?>
   <nav class="navbar navbar-expand-sm bg-dark navbar-dark  sticky-top">
 
-<a href='show.php'><img src="logo.jpg" width="60px"  ></a>
+<a href='show.php'><img src="image/logo.jpg" width="60px"  ></a>
   <ul class="navbar-nav" style='padding-left:30px;'>
     <li class="nav-item mr-auto">
       <h1 style="color:white;">FARM TO FORK</h1><i style="color:orange;">grasp your grocery</i>

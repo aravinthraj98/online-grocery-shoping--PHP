@@ -127,7 +127,7 @@ $show1=$conn->query($sql1);
     
       foreach($b as $img){
 
-        echo "<img src='$img' style='width:100px;height:100px;'>";
+        echo "<img src='image/$img' style='width:100px;height:100px;'>";
       }   
       echo "<br>";
       $totalcost=0;

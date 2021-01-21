@@ -47,7 +47,7 @@ if($_SESSION['uname']){
                    
                     
                     
-                echo "<img src=$row[img]>
+                echo "<img src=image/$row[img]>
                       <h4>product:$row[pname]<br>
                        price of $row[quantity]:$row[cost]<br>
                        QUANTITY YOU ORDERED:$Q<br>

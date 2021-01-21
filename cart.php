@@ -22,7 +22,7 @@ if(isset($_SESSION['uname'])){
         $pname=$row['pname'];
             echo "<div class='grid-item'> 
         <form action = 'purchase.php' method='POST'>
-    <img src=".$row['img']."><br>
+    <img src=`image/.$row['img'].`><br>
     $row[pname]-$row[quantity]<br>
    
     

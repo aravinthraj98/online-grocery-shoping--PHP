@@ -126,7 +126,7 @@ while($row = $show->fetch_assoc()){
    
 echo "<div class='grid-item' style='height:400px;width:300;'> 
        <form action = 'show.php' method='POST'>
-   <img src=".$row['img']." title='$row[pname]'><br> $row[pname]-$row[quantity]<br>";
+   <img src="image/.$row['img']." title='$row[pname]'><br> $row[pname]-$row[quantity]<br>";
     
    
         
